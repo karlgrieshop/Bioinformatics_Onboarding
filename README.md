@@ -259,7 +259,7 @@ Bioinformatics_Onboarding/
 │   ├── GitHub_CheatSheet.md
 │   └── git_and_GitHub_tutorial.md
 └── Unix_help/
-    └── Unix.Cheat.Sheet.txt
+    └── Unix_CheatSheet.md
 ```
 
 Navigate around your terminal to explore that repo using `cd`, `cd ..`, `pwd` etc.
