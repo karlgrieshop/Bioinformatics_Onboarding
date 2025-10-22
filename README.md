@@ -411,11 +411,14 @@ Ok, so you're on the HPC, in an interactive session... Now:
 **Unix_help/Unix_CheatSheet.md is yours to keep.** 
 I hope it's useful. Add to it as you come across useful commands.
 
+**Workshop 1 (group work)**
+Material is located in `/gpfs/data/BIO-DSB/Session1`, you're welcome to get an early start.
+
 **"GitHub Education"**
 
 You can access GitHub Copilot Pro for free via [GitHub Education](https://github.com/education).
 
-1. Register as as [Teacher](https://docs.github.com/en/education/about-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher) or [Student](https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student) - usually a photo of your Student ID or a redacted pay stub works.
+1. You can register as as [Teacher](https://docs.github.com/en/education/about-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher) or [Student](https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student) - usually a photo of your Student ID or a redacted pay stub works.
 
 2. [Activate and Confirm your free Copilot Pro subscription](https://github.com/settings/copilot/features).
 
