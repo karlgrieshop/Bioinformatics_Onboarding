@@ -26,7 +26,7 @@
 
 Welcome to Data Science and Bioinformatics (BIO-7051B)! 
 
-Complete this tutorial before the Day 1 (February 4, 2025). 
+Complete this tutorial before the Day 1 (February 4, 2026). 
 
 It should take you about two hours.
 
