@@ -258,7 +258,7 @@ Bioinformatics_Onboarding/
 ├── GitHub_tutorial/
 │   ├── GitHub_CheatSheet.md
 │   └── git_and_GitHub_tutorial.md
-└── Unix_help/
+├── Unix_help/
     └── Unix_CheatSheet.md
 ```
 
@@ -287,16 +287,28 @@ Navigate around your terminal to explore that repo using `cd`, `cd ..`, `pwd` et
    ```bash
    open Command_line_tutorial.md
    ```
+   *Or find another way to open this new file if that command doesn't work on your system.*
 
-6. In VS Code, attach `Command_line_tutorial.md` to your Copilot conversation.
+6. In VS Code, attach the empty `Command_line_tutorial.md` to your Copilot conversation (and ensure the `README.md` is still attached as well).
 
-7. Prompt Copilot to cut-and-paste your self-guided command line tutorial (the content between "*Elephant*" and "*Tiger*" in your `README.md` above, or by explicit line numbers if needed) into this new `Command_line_tutorial.md` file.
+7. Prompt Copilot to cut-and-paste your self-guided command line tutorial from in between "*Elephant*" and "*Tiger*" of your `README.md` script (or by explicit line numbers if needed) into this new empty `Command_line_tutorial.md` file. *(Yes, you could cut-and-paste this manually yourself, but practice prompting Copilot well enough to get what you want out of it, and check its work.)*
 
-8. Review the changes, accept (`Keep`) them, and save the file.
+8. Review the changes, accept (`Keep`) them, and save both files. Your local clone of the repo should now look like this:
 
-You now have a record of your personalized command line tutorial in your repository, organized and ready for future reference or sharing.
+```
+Bioinformatics_Onboarding/
+├── README.md
+├── LICENCE
+├── Command_line_tutorial/
+│   └── Command_line_tutorial.md
+├── GitHub_tutorial/
+│   ├── GitHub_CheatSheet.md
+│   └── git_and_GitHub_tutorial.md
+├── Unix_help/
+    └── Unix_CheatSheet.md
+```
 
-**We would be ready to document those changes on GitHub, but we need to set up your SSH key first.**
+**We would be ready to document those changes on your forked copy of the GitHub repo, but we need to set up your SSH key first.**
 
 ---
 
