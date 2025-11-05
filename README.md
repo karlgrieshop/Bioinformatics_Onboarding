@@ -418,6 +418,8 @@ Ok, so you're on the HPC, in an interactive session... Now:
 **Note:** 
 *If you push changes to a repo from one location, or edit the repo directly in github.com, you will not be able to push other changes to that same repo until you've resolved the differences among the different copies (you will get an error regarding "divergent branches"); to resolve use: `git pull --rebase origin main` (see GitHub_CheatSheet.md)*
 
+4. For life moving forward, keep your ongoing unfinished work synced through regular commits to private github repos for each project and *add you supervisor and relevant team members as "collaborators" on the repo*. Discuss with your supervisor or employer about if/when/how to publically archive a repo under a permanent DOI upon publication (super easy with [Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)).
+
 ---
 
 *Congrats! You made it. You're ready for Day 1!*
