@@ -389,7 +389,7 @@ If you need more help, this is a very slow walk-through of what Git and GitHub a
 
 ## HPC
 
-Ok, by now, you're familiar with the commandline to SSH into the HPC, navigate around, and set up your HPC SSH key. Let's do it. 
+Ok, by now, you're familiar with the commandline to SSH into the HPC, navigate around, and set up your HPC SSH key. Let's do it (*requires VPN*).  
 
 Go to your terminal and type:
 
@@ -397,6 +397,7 @@ Go to your terminal and type:
 ssh `<your.abc12xyz.uea.username>`@hali.uea.ac.uk
 ```
 *Enter your UEA password when prompted*
+*If it hangs, not asking for password, you have a VPN or other IT issue.*
 
 **Imediately upon logging in, type:**
 ```Bash
