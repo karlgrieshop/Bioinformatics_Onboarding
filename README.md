@@ -126,8 +126,8 @@ I recommend using VS Code as your text editor **and** your terminal.
 **Download and setup VS Code:**
 
 - **Windows users**, first install [Git for Windows](https://git-scm.com/download/win).
-- **UEA-managed Windows devices**, if you cannot download/install **Git for Windows**, proceed with Powershell but mind the notes above about how you may need to Google alternative commands. We'll sort out your specific issue on Day 1.
-- **Everybody** [Download VS Code](https://code.visualstudio.com/Download).
+- If you cannot download/install **Git for Windows**, proceed with Powershell but mind the notes above about how you may need to Google alternative commands. We'll sort out your specific issue on Day 1.
+- **Everybody**, if you haven't already done so, [Download VS Code](https://code.visualstudio.com/Download).
 
 **Installation Tips:**
 - Accept all default options during installation.
@@ -232,7 +232,7 @@ You will need `git` for the next step.
 Go to the main page of [this tutorial](https://github.com/karlgrieshop/Bioinformatics_Onboarding) on GitHub.com and click the GitHub Copilot chat icon in the top right.
 
 **Attach GitHub repositories, scripts, local files, etc.**  
-The karlgrieshop/Bioinformatics_Onboarding repository should be attached automatically, but if not, attach it by clicking the "+" icon in the chat prompt area and selecting **Repositories** and finding karlgrieshop/Bioinformatics_Onboarding. 
+The karlgrieshop/Bioinformatics_Onboarding repository should be attached to your Copilot conversation automatically, but if not, attach it by clicking the "+" icon in the chat prompt area and selecting **Repositories** and finding karlgrieshop/Bioinformatics_Onboarding. 
 
 Attach a local file, specifically, your modified `README.md`, by clicking the "+" icon in the chat prompt area and selecting **Upload from computer** and finding your modified `README.md` file.
 
@@ -241,6 +241,7 @@ Now, write your own detailed prompt in the Copilot chat on GitHub.com, with the 
 2. Clone that copy to your local machine using the terminal command `git clone` and the HTTPS link for the repo. 
 **Tip**
 - If you don't know what "repo", "fork" and "clone" mean, ask Copilot.
+- If you want your forked copy to be private, change that in the settings of your forked repo.
 - Think about where you want to clone the repo to on your local machine.
   - Design the directory names and orgnisation logically 
   - Navigate to that directory before running your `git clone` line.
@@ -249,7 +250,7 @@ Go!
 
 ### Document Changes to Forked Repo
 
-Ok, so you should now have a modified local copy of `README.md` that you downloaded earlier (probably the one you're looking at now), **AND** a local copy of the full Bioinformatics_Onboarding/ GitHub repo, with the following structure:
+Ok, so you should now have a modified local copy of `README.md` that you downloaded earlier (probably the one you're looking at now), **AND** a local copy of the full Bioinformatics_Onboarding/ repo, with the following structure:
 
 ```
 Bioinformatics_Onboarding/
@@ -262,9 +263,9 @@ Bioinformatics_Onboarding/
     └── Unix_CheatSheet.md
 ```
 
-Navigate around your terminal to explore that repo using `cd`, `cd ..`, `pwd` etc.
+Navigate around your terminal to explore that repo using `cd`, `cd ..`, `ls`, `pwd` etc.
 
-**Document your command line tutorial in your cloned repo**
+**Document your personal command line tutorial in your cloned repo**
 
 1. In your terminal, navigate to your cloned `Bioinformatics_Onboarding/` directory.
 
@@ -291,9 +292,9 @@ Navigate around your terminal to explore that repo using `cd`, `cd ..`, `pwd` et
 
 6. In VS Code, attach the empty `Command_line_tutorial.md` to your Copilot conversation (and ensure the `README.md` is still attached as well).
 
-7. Prompt Copilot to cut-and-paste your self-guided command line tutorial from in between "*Elephant*" and "*Tiger*" of your `README.md` script (or by explicit line numbers if needed) into this new empty `Command_line_tutorial.md` file. *(Yes, you could cut-and-paste this manually yourself, but practice prompting Copilot well enough to get what you want out of it, and check its work.)*
+7. Prompt Copilot to cut-and-paste your self-guided command line tutorial from in between "*Elephant*" and "*Tiger*" of your `README.md` script (or by explicit line numbers if needed) into this new empty `Command_line_tutorial.md` file. *(Yes, you could cut-and-paste this manually yourself, but practice prompting Copilot well enough to get what you want out of it so you can put it to good use later.)*
 
-8. Review the changes, accept (`Keep`) them, and save both files. Your local clone of the repo should now look like this:
+8. Review the changes, accept (`Keep`) them if you got what you wanted (fix little things manually if needed), and save both files. Your local clone of the repo should now look like this:
 
 ```
 Bioinformatics_Onboarding/
@@ -309,6 +310,9 @@ Bioinformatics_Onboarding/
 ```
 
 **We would be ready to document those changes on your forked copy of the GitHub repo, but we need to set up your SSH key first.**
+
+**Disclaimer**
+*Outside this module, check with your supervisor or employer and follow institutional/data‑protection policies before putting any sensitive or proprietary material into AI prompt windows. Avoid pasting raw data. You are responsible for any accidental disclosure.* 
 
 ---
 
@@ -400,7 +404,8 @@ interactive-bio-ds
 ```
 *Until you run that  `interactive-bio-ds` command, you'll be sitting on the login node, which is equivalent to standing in the doorway while others are trying to get in.*
 
-*Note: outside of this module, you would simply use `interactive` rather than `interactive-bio-ds`, but the latter is specifically designated for this module to allocate all students and their HPC jobs to nodes that have been partitioned for this module.*
+**Note:** 
+*`interactive-bio-ds` is specifically designated for this module to allocate all students and their HPC jobs to nodes that have been partitioned for this module. It will not work for you if you have not been added to the user group. All other users outside of this module (including those doing HPC work after this module ends), should simply use `interactive` rather than `interactive-bio-ds`.*
 
 Ok, so you're on the HPC, in an interactive session... Now:
 
@@ -410,7 +415,8 @@ Ok, so you're on the HPC, in an interactive session... Now:
 
 3. You can now push and pull work to/from GitHub on both your local machine and your HPC account. Cool!
 
-*Note that if you push changes to a repo from one location, or edit the repo directly in github.com, you will not be able to push other changes to that same repo until you've resolved the differences among the different copies (you will get an error regarding "divergent branches"); to resolve use: `git pull --rebase origin main` (see GitHub_CheatSheet.md)*
+**Note** 
+*If you push changes to a repo from one location, or edit the repo directly in github.com, you will not be able to push other changes to that same repo until you've resolved the differences among the different copies (you will get an error regarding "divergent branches"); to resolve use: `git pull --rebase origin main` (see GitHub_CheatSheet.md)*
 
 ---
 
@@ -421,7 +427,7 @@ Ok, so you're on the HPC, in an interactive session... Now:
 ## Bonus
 
 **Unix_help/Unix_CheatSheet.md is yours to keep.** 
-I hope it's useful. Add to it as you come across useful commands.
+I hope it's useful. Keep it as a notebook and add to it.
 
 **Workshop 1 (group work)**
 Material is located in `/gpfs/data/BIO-DSB/Session1`, you're welcome to get an early start.
@@ -434,5 +440,14 @@ You can access GitHub Copilot Pro for free via [GitHub Education](https://github
 
 2. [Activate and Confirm your free Copilot Pro subscription](https://github.com/settings/copilot/features).
 
-3. I recommend scrolling down to the "Privacy" section and unchecking the box "Allow GitHub to use my data for product improvements" as well as Disabling "Allow GitHub to use my data for AI model training."
+3. I recommend reviewing GitHub Copilot's data & privacy settings and disabling data sharing if you do not want your code or prompts used for product improvement or model training. Specifically:
+   - Go to GitHub → Settings → Copilot → Data sharing (or GitHub.com → Settings → Copilot features) and consider disabling:
+     - "Allow GitHub to use my data for product improvements"
+     - "Allow GitHub to use my data to improve AI models"
+   - Note: organisation (enterprise/university) accounts can enforce or override these settings. Check with your employer or supervisor if you use a managed account.
+   - Always enable two-factor authentication on your GitHub account.
+   - Avoid pasting sensitive or proprietary data (passwords, patient data, private keys) into AI prompts or editors that may be sent to external services.
+   - For full details and the latest wording, see GitHub's documentation on Copilot data and privacy: https://docs.github.com/en/copilot/getting-started-with-github-copilot/about-github-copilot-data-collection
+
+*Reminder:* these settings affect how GitHub may use your data; they do not replace institutional policies. 
 
