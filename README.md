@@ -415,21 +415,21 @@ Ok, so you're on the HPC, in an interactive session... Now:
 
 3. You can now push and pull work to/from GitHub on both your local machine and your HPC account. Cool!
 
-**Note** 
+**Note:** 
 *If you push changes to a repo from one location, or edit the repo directly in github.com, you will not be able to push other changes to that same repo until you've resolved the differences among the different copies (you will get an error regarding "divergent branches"); to resolve use: `git pull --rebase origin main` (see GitHub_CheatSheet.md)*
 
 ---
 
-*Congrats! You made it. you're ready for Day 1!*
+*Congrats! You made it. You're ready for Day 1!*
 
 ---
 
 ## Bonus
 
-**Unix_help/Unix_CheatSheet.md is yours to keep.** 
+**Unix_help/Unix_CheatSheet.md is yours to keep.**
 I hope it's useful. Keep it as a notebook and add to it.
 
-**Workshop 1 (group work)**
+**Workshop 1 (group work):**
 Material is located in `/gpfs/data/BIO-DSB/Session1`, you're welcome to get an early start.
 
 **"GitHub Education"**
