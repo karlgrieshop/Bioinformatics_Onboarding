@@ -52,7 +52,7 @@ It should take you about two hours.
 
 **Part 8 of this tutorial ([HPC](#HPC)), and Day 1 of your Bioinformatics module (February 4, 2025), requires:** 
 - A UEA username and email address, 
-- An "Hali" account (UEA's High Performance Computing cluster (HPC)), **which I have already set up for all students registered to this module**,
+- A "Hali" account (UEA's High Performance Computing cluster (HPC)), **which I have already set up for all students registered to this module**,
 
 **To access the Hali from a personal device, requires:**
 - The [multi-factor authenticator (MFA)](https://www.uea.ac.uk/about/university-information/it-information/mfa), 
