@@ -87,7 +87,7 @@ If you are missing any of the above, proceed through as much of this tutorial as
   ```
   then the path to the path to `script.sh` would be: `/Users/Sally/Documents/script.sh`. 
 
-- **The $PATH** You don't need to know about the $PATH for this tutorial, but just in case your Google search gets you down the wrong rabbit hole, "The $PATH" is NOT the same as "a path" — "The $PATH" is a special environment variable in Unix-like systems that stores a list of directories that will be searched before anything else so that you can, e.g., call a program from anywhere without having to type out a path to the program. 
+- **The $PATH:** You don't need to know about the $PATH for this tutorial, but just in case your Google search gets you down the wrong rabbit hole, "The $PATH" is NOT the same as "a path" — "The $PATH" is a special environment variable in Unix-like systems that stores a list of directories that will be searched before anything else so that you can, e.g., call a program from anywhere without having to type out a path to the program. 
 
 ### Command Line, Script, and Text Editor
 
@@ -115,6 +115,7 @@ If you are missing any of the above, proceed through as much of this tutorial as
 ---
 
 ## GitHub Account
+
 You are viewing this tutorial on a website called GitHub, a forum for sharing code. If you don't already have a GitHub account [open this link in a new tab to start a free GitHub account](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) using your UEA email address. If you already have a GitHub account, log in. If you've registered your account to a different email address, you may wish to change that to your UEA email. 
 
 ---
@@ -124,7 +125,6 @@ You are viewing this tutorial on a website called GitHub, a forum for sharing co
 I recommend using VS Code as your text editor **and** your terminal. 
 
 **Download and setup VS Code:**
-
 - **Windows users**, first install [Git for Windows](https://git-scm.com/download/win).
 - If you cannot download/install **Git for Windows**, proceed with Powershell but mind the notes above about how you may need to Google alternative commands. We'll sort out your specific issue on Day 1.
 - **Everybody**, if you haven't already done so, [Download VS Code](https://code.visualstudio.com/Download).
@@ -160,7 +160,7 @@ Ok, you've seen how we open scripts VS Code, now we'll open the terminal in VS C
 
 In the menu bar in the top click `Terminal` → `New Terminal` to open a terminal window in VS Code. (*If your screen got split in half horizontally, just click `zsh`, `Bash`, `Git Bash` or `Powershell` → `Move Terminal to Editor Area` for a better experience.*) 
 
-**Windows users**
+**Windows users:**
 VS Code should use `Git Bash` as your terminl by default because you installed **Git for Windows** earlier, above. If it opened a `Powershell` terminal instead, click the dropdown arrow in the terminal tab and select `Git Bash`. I recommend setting `Git Bash` as your default shell: click the dropdown arrow again and choose **Select Default Profile…**, then choose **Git Bash**. 
 
 I like to slide my terminal tab(s) all the way over the left and scripts to the right to keep things organised.
@@ -176,7 +176,7 @@ GitHub Copilot is built into VS Code, as well as built into GitHub.com. You'll u
 
 GitHub Copilot is AI-powered and can suggest code, commands, annotations, troubleshooting, or documentation as you type or as prompted. It works by analysing your current context and providing relevant suggestions, which you can accept, reject, or modify.
 
-**Tips for GitHub Copilot**
+**Tips for GitHub Copilot:**
 - Depending on how you set up VS Code, it might be auto-completing lines or blocks of code. If you don't like that, or the suggestions are coming too fast, you can turn that off or delay the suggestions in the settings.
 - Be descriptive in prompts (e.g. below). The clearer you are, the better suggestions Copilot can provide.
 - You can toggle among the different large language models (LLMs) that it's basing its answers on (e.g. GPT-4, Claude Sonnet, etc.) – I have no specific advice in that area.
@@ -185,10 +185,10 @@ GitHub Copilot is AI-powered and can suggest code, commands, annotations, troubl
 ### GitHub Copilot in VS Code
 In VS Code, click the little Copilot chat icon at the top, just to the right of the search bar (or click the drop down and select **Open Chat**). The Copilot chat bar should open to the right side of your VS Code session.
 
-**Side-bar "Ask" versus "Edit"**
+**Side-bar "Ask" versus "Edit":**
 In the bottom of that bar is your chat prompt window, where you can toggle between `Ask` and `Edit` (and perhaps also `Agent`, which we will not use). `Ask` mode gives answers in the chat bar only. But with `Edit` mode Copilot can impliment changes to scripts you attach, which you can accept or reject. You can also toggle among different language models (i.e. GPT, Claude Sonnet, etc.). 
 
-**Self-guided command line tutorial**
+**Self-guided command line tutorial:**
 Toggle the chat prompt window to `Edit` mode and attach this `README.md` script to the conversation by dragging the `README.md` tab down into the chat bar. `README.md` **must** be listed as as one of the attachments in your chat for the next step to work. 
 
 Personalise the prompt below (e.g. length of time, operating system, skill level), then copy and past it into the chat bar prompt window:
@@ -203,18 +203,18 @@ Ok, so customise that prompt, copy and past it into the chat bar on the side in 
 
 *Tiger*
 
-**Now that you're finished editing/modifying the README.md script**
+**Now that you're finished editing/modifying the README.md script:**
 I'd like to show you that you can view this `README.md` script in `Preview` mode right here in VS Code, too, by either finding the buttons and clicking them, or using these keyboard shortcuts:
-**As a new tab (my preference)**
+**As a new tab (my preference):**
 Windows/Linux: Ctrl+Shift+V
 Mac: Cmd+Shift+V
-**Or side-by-side**
+**Or side-by-side:**
 Windows/Linux: Ctrl+K V 
 Mac: Cmd+K V  
 
 You can't edit these `Preview` modes, but they might be softer on your eyes for following the remainder of the tutorial from within VS Code.
 
-**Now that you can use the terminal**
+**Now that you can use the terminal:**
 Check if you have git installed by running this command in your terminal:
 
 ```
@@ -231,7 +231,7 @@ You will need `git` for the next step.
 
 Go to the main page of [this tutorial](https://github.com/karlgrieshop/Bioinformatics_Onboarding) on GitHub.com and click the GitHub Copilot chat icon in the top right.
 
-**Attach GitHub repositories, scripts, local files, etc.**  
+**Attach GitHub repositories, scripts, local files, etc.:**  
 The karlgrieshop/Bioinformatics_Onboarding repository should be attached to your Copilot conversation automatically, but if not, attach it by clicking the "+" icon in the chat prompt area and selecting **Repositories** and finding karlgrieshop/Bioinformatics_Onboarding. 
 
 Attach a local file, specifically, your modified `README.md`, by clicking the "+" icon in the chat prompt area and selecting **Upload from computer** and finding your modified `README.md` file.
@@ -265,7 +265,7 @@ Bioinformatics_Onboarding/
 
 Navigate around your terminal to explore that repo using `cd`, `cd ..`, `ls`, `pwd` etc.
 
-**Document your personal command line tutorial in your cloned repo**
+**Document your personal command line tutorial in your cloned repo:**
 
 1. In your terminal, navigate to your cloned `Bioinformatics_Onboarding/` directory.
 
@@ -311,7 +311,7 @@ Bioinformatics_Onboarding/
 
 **We would be ready to document those changes on your forked copy of the GitHub repo, but we need to set up your SSH key first.**
 
-**Disclaimer**
+**Disclaimer:**
 *Outside this module, check with your supervisor or employer and follow institutional/data‑protection policies before putting any sensitive or proprietary material into AI prompt windows. Avoid pasting raw data. You are responsible for any accidental disclosure.* 
 
 ---
@@ -383,7 +383,7 @@ open git_and_GitHub_tutorial.md
 
 If you need more help, this is a very slow walk-through of what Git and GitHub are ([here](https://youtu.be/mJ-qvsxPHpY?si=sMApMaZvj5QWwTqd), optional).
 
-**Do not proceed beyond this point until you have completed the `git_and_GitHub_tutorial.md`.
+**Do not proceed beyond this point until you have completed the `git_and_GitHub_tutorial.md`.**
 
 ---
 
@@ -435,8 +435,7 @@ I hope it's useful. Keep it as a notebook and add to it.
 **Workshop 1 (group work):**
 Material is located in `/gpfs/data/BIO-DSB/Session1`, you're welcome to get an early start.
 
-**"GitHub Education"**
-
+**"GitHub Education":**
 You can access GitHub Copilot Pro for free via [GitHub Education](https://github.com/education).
 
 1. You can register as as [Teacher](https://docs.github.com/en/education/about-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher) or [Student](https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student) - usually a photo of your Student ID or a redacted pay stub works.
@@ -452,5 +451,5 @@ You can access GitHub Copilot Pro for free via [GitHub Education](https://github
    - Avoid pasting sensitive or proprietary data (passwords, patient data, private keys) into AI prompts or editors that may be sent to external services.
    - For full details and the latest wording, see GitHub's documentation on Copilot data and privacy: https://docs.github.com/en/copilot/getting-started-with-github-copilot/about-github-copilot-data-collection
 
-*Reminder:* these settings affect how GitHub may use your data; they do not replace institutional policies. 
+*Reminder: These settings affect how GitHub may use your data; they do not replace institutional policies.* 
 
