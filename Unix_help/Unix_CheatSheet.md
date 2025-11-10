@@ -144,7 +144,7 @@ head -n -5 file
 
 Replace whitespace with tab:
 ```bash
-perl -p -e 's/ /\t/g' file
+unexpand -a file > file.withtabs
 ```
 
 Print only rows where a column equals a string (example column 1):
