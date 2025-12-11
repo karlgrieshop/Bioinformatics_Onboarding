@@ -394,7 +394,7 @@ Ok, by now, you're familiar with the commandline to SSH into the HPC, navigate a
 Go to your terminal and type:
 
 ```Bash
-ssh `<your.abc12xyz.uea.username>`@hali.uea.ac.uk
+ssh `<abc12xyz>`@hali.uea.ac.uk
 ```
 *Enter your UEA password when prompted*
 *If it hangs, not asking for password, you have a VPN or other IT issue.*
