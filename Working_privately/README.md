@@ -1,8 +1,8 @@
 ## Working privately (optional)
 
-Note: This example assumes you have an SSH key configured with GitHub and can use `git@github.com:` URLs. If you haven't set that up yet, follow those instructions in the Bioinformatics_Onboarding/README.md or GitHub's SSH key guide before continuing.
+**This is not needed, and honestly more hastle than it's worth** but if you're nervous about have your learning experience be public record, there's a work around. You can't simply set the Visibility = Private your forked copy of a public repo, but you can create a mirror of the repo and then an independent private repo of your own, and push your mirrored version into that private repo of yours:
 
-To create a private, independent mirror of the Bioinformatics_Onboarding tutorial repository:
+*Note: This example assumes you have an SSH key configured but if you don't you can follow those instructions in the Bioinformatics_Onboarding/README.md or GitHub's SSH key guide before continuing.*
 
 1. Mirror-clone the public repo (creates a bare/mirror directory named `My_Onboarding`):
 ```bash
