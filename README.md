@@ -61,19 +61,14 @@ Gain introductory exposure to:
 
 **Part 8 of this tutorial ([HPC](#HPC)), and Day 1 of your Bioinformatics module (February 4, 2025), requires:** 
 - A UEA username and email address, 
-- A "Hali" account (UEA's High Performance Computing cluster (HPC)), **which I have already set up for all students registered to this module**,
-
-**To access the Hali from a personal device, requires:**
 - The [multi-factor authenticator (MFA)](https://www.uea.ac.uk/about/university-information/it-information/mfa), 
 - The [GlobalProtect VPN](https://my.uea.ac.uk/divisions/it-and-computing-services/service-catalogue/network-and-telephony-services/vpn-services/vpn-for-non-managed-devices), 
+- A "Hali" account (UEA's High Performance Computing cluster (HPC)), **which I have already set up for all students registered to this module**.
 
 **If you are having trouble with your username, email, MFA, or VPN, contact:** 
 - [UEA IT Service Desk](https://www.uea.ac.uk/about/university-information/it-services/it-service-desk).
 
-**UEA-managed devices**
-- Should enable the full tutorial, but relevant notes along the way. 
-
-If you are missing any of the above, proceed through as much of this tutorial as you can, and sort out the rest with UEA IT **prior** to Day 1 (February 4, 2025). 
+**If you are missing any of the above,** proceed through as much of this tutorial as you can, and sort out the rest with UEA IT **prior** to Day 1 (February 4, 2025). 
 
 ---
 
@@ -145,7 +140,7 @@ I recommend using VS Code as your text editor **and** your terminal.
 - It should have installed the “GitHub Copilot” extension, but if not, do that. 
 - Sign in with your GitHub account.
 - If VS Code asks whether you trust the workspace and you recognize the workspace as a directory on your local device, click “Yes”.
-- For additional advice see, [getting started with VS Code](https://code.visualstudio.com/docs/introvideos/basics)
+- For additional advice see, [getting started with VS Code](https://code.visualstudio.com/docs/introvideos/basics).
 
 Ok, this tutorial that you're currently reading, if you're still reading it on GitHub, is actually a README.md script, where the `.md` file extension stands for "mark down," which GitHub will automatically render into this fancy readable format you see in front of you. 
 
@@ -161,7 +156,7 @@ If it opens in a different program (e.g. Notepad), that's because you have a dif
 
 You will need to get familiar with your computer, how to adjust default settings, where files are stored when you download them, and how to Google your question when you hit a snag.
 
-If you still can't open a file in VS Code, here's a work-around: In the VS Code menu bar click `File` → `New File...` and create a new file called `README.md`, and copy and past the entire contents of the raw `README.md` script as you see it [here](https://github.com/karlgrieshop/Bioinformatics_Onboarding/blob/main/README) into that new empty `README.md` file you just created in VS Code, save (Ctl+s or Cmd+s), and find your way back to this place in the tutorial again. 
+**If** (but *only* if) you still can't open a file in VS Code, here's a work-around: In the VS Code menu bar click `File` → `New File...` and create a new file called `README.md`, and copy and past the entire contents of the raw `README.md` script as you see it [here](https://github.com/karlgrieshop/Bioinformatics_Onboarding/blob/main/README) into that new empty `README.md` file you just created in VS Code, save (Ctl+s or Cmd+s), and find your way back to this place in the tutorial again. 
 
 ### VS Code terminal
 
