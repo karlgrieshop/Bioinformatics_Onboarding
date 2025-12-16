@@ -161,7 +161,7 @@ Ok, you've seen how we open scripts VS Code, now we'll open the terminal in VS C
 In the menu bar in the top click `Terminal` → `New Terminal` to open a terminal window in VS Code. (*If your screen got split in half horizontally, just click `zsh`, `Bash`, `Git Bash` or `Powershell` → `Move Terminal to Editor Area` for a better experience.*) 
 
 **Windows users:**
-VS Code should use `Git Bash` as your terminl by default because you installed **Git for Windows** earlier, above. If it opened a `Powershell` terminal instead, click the dropdown arrow in the terminal tab and select `Git Bash`. I recommend setting `Git Bash` as your default shell: click the dropdown arrow again and choose **Select Default Profile…**, then choose **Git Bash**. 
+VS Code should use `Git Bash` as your terminl by default because you installed **Git for Windows** earlier, above. If it opened a `Powershell` terminal instead, click the dropdown arrow in the terminal tab and select `bash`. I recommend setting `bash` as your default shell: click the dropdown arrow again and choose **Select Default Profile…**, then choose **Git Bash**. 
 
 I like to slide my terminal tab(s) all the way over the left and scripts to the right to keep things organised.
 
