@@ -144,7 +144,7 @@ I recommend using VS Code as your text editor **and** your terminal.
 
 Ok, this tutorial that you're currently reading, if you're still reading it on GitHub, is actually a README.md script, where the `.md` file extension stands for "mark down," which GitHub will automatically render into this fancy readable format you see in front of you. 
 
-To see the raw `README.md` script,  scroll all the way back up to the top of this repository where its contents are listed and click the `README.md` file, or here's a [shortcut](https://github.com/karlgrieshop/Bioinformatics_Onboarding/blob/main/README), and find your way back to this place in the tutorial using Ctl+f (or Cmd+f) to search for the term *monkey*. 
+To see the raw `README.md` script,  scroll all the way back up to the top of this repository where its contents are listed and click the `README.md` file, or here's a [shortcut](https://github.com/karlgrieshop/Bioinformatics_Onboarding/blob/main/README), and find your way back to this place in the tutorial using `Ctl+f` (or `Cmd+f`) to search for the term *monkey*. 
 
 OK, you're now looking at the `README.md` script in its online repository on GitHub.com, either in `Preview` mode or `Code` mode (at the top).  
 
@@ -156,7 +156,7 @@ If it opens in a different program (e.g. Notepad), that's because you have a dif
 
 You will need to get familiar with your computer, how to adjust default settings, where files are stored when you download them, and how to Google your question when you hit a snag.
 
-**If** (but *only* if) you still can't open a file in VS Code, here's a work-around: In the VS Code menu bar click `File` → `New File...` and create a new file called `README.md`, and copy and past the entire contents of the raw `README.md` script as you see it [here](https://github.com/karlgrieshop/Bioinformatics_Onboarding/blob/main/README) into that new empty `README.md` file you just created in VS Code, save (Ctl+s or Cmd+s), and find your way back to this place in the tutorial again. 
+**If** (but *only* if) you still can't open a file in VS Code, here's a work-around: In the VS Code menu bar click `File` → `New File...` and create a new file called `README.md`, and copy and past the entire contents of the raw `README.md` script as you see it [here](https://github.com/karlgrieshop/Bioinformatics_Onboarding/blob/main/README) into that new empty `README.md` file you just created in VS Code, save (`Ctl+s` or `Cmd+s`), and find your way back to this place in the tutorial again. 
 
 ### VS Code terminal
 
