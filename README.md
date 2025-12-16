@@ -44,7 +44,16 @@ It should take you about two hours.
 7. [Git and GitHub tutorial](#Git-and-GitHub-tutorial)
 8. [HPC](#HPC)
 
+---
 
+## Learning objectives:
+
+Gain introductory exposure to:
+- Command line proficiency - Navigate directories, manage files
+- VS Code & Copilot - Use AI-assisted coding tools
+- Git & GitHub - Version control and code collaboration
+- SSH authentication - Secure remote connections
+- HPC access - Connect to high-performance computing clusters
 
 ---
 
