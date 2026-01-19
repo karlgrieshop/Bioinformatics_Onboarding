@@ -53,7 +53,7 @@ kill PROCESS_ID
 
 ---
 
-## Text processing: grep / awk / sed / perl
+## Text processing: grep / awk / sed / cat
 
 Print lines matching a pattern:
 ```bash
