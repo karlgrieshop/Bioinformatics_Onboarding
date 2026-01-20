@@ -414,11 +414,53 @@ interactive-bio-ds
 
 Ok, so you're on the HPC, in an interactive session... Now:
 
-1. Set up a second GitHub SSH key for your HPC home directory (same steps as the SSH Key tutorial above),
+1. **Note about SSH keys on HPC:** SSH keys are currently disabled on the HPC (but may be enabled in the future). For now, you'll need to set up a GitHub classic personal access token for authentication on your HPC account, while continuing to use SSH keys on your local machine.
 
-2. Clone your /Bioinformatics_Onboarding repo to your scratch/ directory.
+2. **Set up a GitHub Personal Access Token for your HPC account:**
+   
+   a. Go to [GitHub Settings > Developer Settings > Personal Access Tokens > Tokens (classic)](https://github.com/settings/tokens)
+   
+   b. Click **Generate new token (classic)**
+   
+   c. Add a descriptive note (e.g., "HPC - Hali")
+   
+   d. Set expiration (recommend "No expiration" for this course, or at minimum through end of term)
+   
+   e. Select ONLY the **repo** scope (check the top-level "repo" box, which will auto-select all its sub-items)
+   
+   f. Click **Generate token** at the bottom
+   
+   g. **CRITICAL:** Copy the token immediately and save it somewhere secure (password manager or secure note). You cannot view it again after leaving this page. 
 
-3. You can now push and pull work to/from GitHub on both your local machine and your HPC account. Cool!
+3. **Clone your Bioinformatics_Onboarding repo to your HPC scratch/ directory using HTTPS:**
+   
+   ```bash
+   cd ~/scratch
+   git clone https://github.com/<your-username>/Bioinformatics_Onboarding.git
+   cd Bioinformatics_Onboarding
+   ```
+   
+   *Replace `<your-username>` with your actual GitHub username.*
+
+4. **Embed your token in the remote URL so authentication happens automatically:**
+   
+   ```bash
+   git remote set-url origin https://<your-github-username>:<your-token>@github.com/<your-username>/Bioinformatics_Onboarding.git
+   ```
+   
+   *Replace `<your-github-username>` with your GitHub username and `<your-token>` with the token you just created.*
+   
+   This embeds your token in the `.git/config` file so you won't be prompted for credentials each time you push or pull.
+
+5. **Security reminder:**
+   - Never share your token with anyone
+   - Never commit your token to a repository  
+   - Treat it like a password
+   - If compromised, revoke it immediately in GitHub settings and generate a new one
+
+6. **You can now push and pull work to/from GitHub on both your local machine (via SSH key) and your HPC account (via Access Token)!**
+   - **Local machine:** Use SSH links (`git@github.com:...`) — you set up SSH keys earlier
+   - **HPC account:** Use HTTPS links with embedded token (`https://<username>:<token>@github.com/...`)
 
 **Note:** 
 *If you push changes to a repo from one location, or edit the repo directly in github.com, you will not be able to push other changes to that same repo until you've resolved the differences among the different copies (you will get an error regarding "divergent branches"); to resolve use: `git pull --rebase origin main` (see GitHub_CheatSheet.md)*
