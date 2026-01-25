@@ -1,6 +1,6 @@
 # Quick Guide: Using Git and GitHub
 
-If you followed the main tutorial, you **initially cloned your fork of the Bioinformatics_Onboarding repo using the HTTPS link**. *But now* that you have set up your SSH key, you can (and should) use the SSH link for all future clones and remote operations for easier authentication — no more typing your GitHub password (disabled) or storing a personal access token somewhere!
+If you followed the main tutorial, you **initially cloned your fork of the Bioinformatics_Onboarding repo using the HTTPS link**. *But now* that you have set up your SSH key on your local machin, you can (and should) use the SSH link for all future cloning and remote operations for easier authentication. Below shows how to modify the remote. (*Note* that if you followed the main tutorial for your HPC setup (using Classic Authentication Token), you should keep using the HTTPS links for cloning and remote operations to/from your HPC (sub)directories.)
 
 To check your current remote:
 ```bash
