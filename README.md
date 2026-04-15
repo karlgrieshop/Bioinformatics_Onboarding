@@ -59,7 +59,7 @@ Gain introductory exposure to:
 
 ## Preamble
 
-**Part 8 of this tutorial ([HPC](#HPC)), and Day 1 of your Bioinformatics module (February 4, 2025), requires:** 
+**Part 8 of this tutorial ([HPC](#HPC)), and Workshop 1 of your Bioinformatics module (February 4, 2025), requires:** 
 - A UEA username and email address, 
 - The [multi-factor authenticator (MFA)](https://www.uea.ac.uk/about/university-information/it-information/mfa), 
 - The [GlobalProtect VPN](https://my.uea.ac.uk/divisions/it-and-computing-services/service-catalogue/network-and-telephony-services/vpn-services/vpn-for-non-managed-devices), 
